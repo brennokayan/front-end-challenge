@@ -25,7 +25,6 @@ Montar uma página responsiva de visualização do clima com algumas funcionalid
 ## Diferencial
 
 - Utilização do Typescript.
-
 - Autocomplete para o campo de texto utilizando dados do IBGE.
 
 ### Referências & ideias
