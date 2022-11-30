@@ -1,0 +1,145 @@
+.content{
+    background-color:  rgba(0, 0, 0, .3);
+    /* background-image: url("../assets/mustad_allweather_119470873.jpg"); */
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    width: 100vw;
+    height: 100vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+
+
+}
+
+@media (max-width: 1280px){
+
+    .Card{
+        font-family: Arial, Helvetica, sans-serif;
+        background: linear-gradient( to right bottom, rgba(218, 218, 218,.3),rgba(41, 84, 124, 0.7));;
+        border-radius: 1.5em;
+        box-shadow: 20px 20px 50px rgba(0, 0, 0, 0.5);
+        border-top: .15em solid rgba(255, 255, 255, .7);
+        border-left: .15em solid rgba(255, 255, 255, .7);
+        height: 85vh;
+        width: 95vw;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        backdrop-filter: blur(0.9em);
+        flex-direction: column;
+        
+    }
+    .card_content h1{
+        color: white;
+        text-shadow: .05em .05em rgba(0, 0, 0, 0.541);
+    }
+    .Card h2{
+        color: white;
+        text-shadow: .08em .08em rgba(0, 0, 0, 0.541);
+        letter-spacing: .06em;
+        text-transform: capitalize;
+        font-size: small;
+    
+    }
+    #description{
+        margin: .2em 0px;
+        text-shadow: .08em .08em rgba(0, 0, 0, 0.541);
+        font-size: small;
+    }
+    #temp{
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        font-size: 3em;
+    }
+    #name{
+        text-align: center;
+        font-size: x-small;
+    }
+    .information_dual{
+        display: flex;
+        align-items: center;
+        padding: .2em 1em;
+        justify-content: space-between;
+    }
+    .card_content{
+        margin-right: 2.3em;
+    }
+    .information_hours{
+        display: flex;
+        align-items: center;
+        justify-content: center;
+    }
+    .TextField{
+        color:white !important
+    }
+    .TextField ::-ms-value{
+        color: white !important;
+    }
+}
+@media (min-width: 1280px){
+
+    .Card{
+        font-family: Arial, Helvetica, sans-serif;
+        background-color: linear-gradient( to right bottom, white,aliceBlue, blue);;
+        border-radius: 1.5em;
+        box-shadow: 2em 1em 2em rgba(0, 0, 0, 0.5);
+        border-top: .15em solid rgba(255, 255, 255, .7);
+        border-left: .15em solid rgba(255, 255, 255, .7);
+        height: 85vh;
+        width: 85vw;
+        display: flex;
+        align-items: center;
+        backdrop-filter: blur(0.9em);
+        justify-content: center;
+        flex-direction: column;
+    }
+    .card_content h1{
+        color: white;
+        font-size: x-large;
+        text-shadow: .05em .05em rgba(0, 0, 0, 0.541);
+    }
+    .Card h2{
+        color: white;
+        text-shadow: .05em .05em rgba(0, 0, 0, 0.541);
+        letter-spacing: .06em;
+        text-transform: capitalize;
+        font-size: xx-large;
+    
+    }
+    #description{
+        margin: .2em 0px;
+        text-shadow: .08em .08em rgba(0, 0, 0, 0.541);
+        font-size: xx-large;
+    }
+    #temp{
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        font-size: 2em;
+    }
+    #name{
+        text-align: center;
+        font-size: x-large;
+    }
+    .information_dual{
+        display: flex;
+        align-items: center;
+        padding: .2em 1em;
+        justify-content: space-between;
+    }
+    .card_content{
+        margin-right: 2.3em;
+    }
+    .information_hours{
+        display: flex;
+        align-items: center;
+        justify-content: center;
+    }
+    .TextField{
+        color:white !important;
+    }
+}
